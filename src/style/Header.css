@@ -1,0 +1,58 @@
+.header {
+    background-color: #fff;
+    font-size: 17px;
+}
+
+.site-topbar {
+    background-color: #333;
+}
+
+.site-topbar li{
+    float: left;
+    padding: 15px;
+}
+
+.site-topbar li a {
+    color: #b0b0b0;
+}
+
+.site-header .logo{
+    width: 55px;
+    height: 55px;
+    background: orange;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    margin-top: 22px;
+    color: #fff;
+}
+
+.site-header ul {
+    padding: 12px 0 0 0px;
+}
+
+.site-header li {
+    float: left;
+    padding: 26px 10px 38px;
+}
+
+.site-header .search-form {
+    width: 296px;
+    margin-top: 22px;
+}
+
+.site-header .search-form .search {
+    border-right: none;
+    width: 223px;
+}
+
+.site-header .search-form .search-btn {
+    width: 52px;
+}
+
+.site-header .search-form input {
+    padding: 0;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}

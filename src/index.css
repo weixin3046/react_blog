@@ -1,13 +1,43 @@
-body {
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, code, em, img, small, strong, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, tr, th, td, canvas, footer, header, hgroup, menu, nav, time, mark, audio, video, input{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  /*font-size: 100%;*/
+  /*font: inherit;*/
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img { border: 0; max-width: 100%;}
+body {
+	background: #e1e1e1;
+	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti,sans-serif!important;
+}
+ol, ul { list-style: none; }
+dd, dt, li {line-height: 20px;}
+a {text-decoration: none;color: #000;display: block;}
+.clearfix {zoom: 1; }
+.clearfix:after, .clearfix:before {content: "\200B"; display: block; height: 0; visibility: hidden; }
+.clearfix:after {clear: both; }
+.f-r {
+  float: right;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.f-l {
+  float: left;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  min-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 976px) {
+  .container {
+    width: 100%;
+    margin: 15px auto;
+  }
 }

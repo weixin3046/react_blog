@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import '../style/Header.css';
+import Pic from '../assets/avatar.jpeg';
 
 export default class Hade extends Component {
     constructor(props) {
@@ -14,24 +15,27 @@ export default class Hade extends Component {
                 { url: 'about', name: '关于我' },
                 { url: 'message', name: '给我留言' },
             ],
+            user: {
+                name: 'chasing',
+            }
         }
     }
 
     render() {
         return (
             <div className="header">
-                <div className="site-header container clearfix">
-                    <div className="f-l"><Link to="/logo" className="logo">MI</Link></div>
-                    <ul className="f-l">
+                <div className="header_top">
+                    <div className="avatar">
+                        <img className="picture" src={Pic} alt="这是头像"/>
+                        <p className="username">{this.state.user.name}</p>
+                    </div>
+                </div>
+                <div className="site_nav">
+                    <ul className="clearfix navbar_tab">
                         {this.state.topbar.map((item, index) => {
                             return <li key={index}><Link to={item.url}>{item.name}</Link></li>
                         })}
                     </ul>
-                    <ul className="f-r">
-                        <li><Link to="/login" className="login">登录</Link></li>
-                        <li><Link to="/register" className="register">注册</Link></li>
-                    </ul>
-                    {/* <form className="search-form f-r"><input type="text" className="search"/><input type="submit" className="search-btn"/></form> */}
                 </div>
             </div>
         )

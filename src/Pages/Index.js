@@ -12,8 +12,8 @@ class Index extends Component {
         return (
             <div>
                 <Header />
-                <Swiper />
-                <List />
+                {/* <Swiper /> */}
+                {/* <List /> */}
             </div>
         );
     }

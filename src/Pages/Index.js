@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Components/Header'
 import Swiper from '../Components/Swiper'
 import List from '../Components/List'
+import Footer from '../Components/Footer'
 
 class Index extends Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class Index extends Component {
                 <Header />
                 {/* <Swiper /> */}
                 {/* <List /> */}
+                <Footer />
             </div>
         );
     }

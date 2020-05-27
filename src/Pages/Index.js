@@ -3,6 +3,8 @@ import Header from '../Components/Header'
 import Swiper from '../Components/Swiper'
 import List from '../Components/List'
 import Footer from '../Components/Footer'
+import Sidebar from '../Components/Sidebar'
+import '../style/Index.css';
 
 class Index extends Component {
     constructor(props) {
@@ -12,10 +14,18 @@ class Index extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <div>
+                    <Sidebar />
+                </div>
+                <div className="body_wrap">
+                    <Header />
+                    <div></div>
+                </div>
+                
+                
                 {/* <Swiper /> */}
                 {/* <List /> */}
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }

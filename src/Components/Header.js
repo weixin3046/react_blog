@@ -24,20 +24,21 @@ export default class Hade extends Component {
     render() {
         return (
             <div className="header">
-                <div className="header_top">
-                    <div className="avatar">
-                        <img className="picture" src={Pic} alt="这是头像"/>
-                        <p className="username">{this.state.user.name}</p>
-                    </div>
-                </div>
-                <div className="site_nav">
-                    <ul className="clearfix navbar_tab">
+                <div className="site-header clearfix">
+                    <div className="f-l"><Link to="/logo" className="logo">chasingDream</Link></div>
+                    <ul className="f-r">
                         {this.state.topbar.map((item, index) => {
                             return <li key={index}><Link to={item.url}>{item.name}</Link></li>
                         })}
                     </ul>
+                    {/* <ul className="f-r">
+                        <li><Link to="/login" className="login">登录</Link></li>
+                        <li><Link to="/register" className="register">注册</Link></li>
+                    </ul> */}
+                    {/* <form className="search-form f-r"><input type="text" className="search"/><input type="submit" className="search-btn"/></form> */}
                 </div>
             </div>
         )
+        
     }
 }

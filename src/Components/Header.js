@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import '../style/Header.css';
-import Pic from '../assets/avatar.jpeg';
 
 export default class Hade extends Component {
     constructor(props) {

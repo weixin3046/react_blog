@@ -13,9 +13,7 @@ export default class Login extends Component {
                     <div className="personal-page">
                         <div className="page-wrap">
                             <div className="page-top">
-                                <a href="#" className="f-l to-login r-l">登录</a>
                                 <span className="f-l point">·</span>
-                                <a href="#" className="f-l to-register  r-l">注册</a>
                             </div>
                             <div className="page-content">
                                 <form className="login-form">
@@ -32,7 +30,6 @@ export default class Login extends Component {
                                     <div className="login-other clearfix">
                                         <input type="checkbox" name="remberme" className="remberme" />
                                         <span>记住我</span>
-                                        <a href="#" className="login-problem">登录遇到问题？</a>
                                     </div>                                   
                                     <input className="submit" type="submit" value="登录" />
                                     <div className="social-account-login">

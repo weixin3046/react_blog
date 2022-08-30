@@ -22,7 +22,7 @@ export default class Sidebar extends Component {
                     </div>
                     <ul className="sidebar_list">
                         {this.state.list.map((item, index) => {
-                            return <li className="list_item" key={index}><a href="javascript:void(0);">{item}</a></li>
+                            return <li className="list_item" key={index}>{item}</li>
                         })}
                     </ul>
                 </div>

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "https://weixin3046.github.io/react_blog/static/css/main.5fc0e598.chunk.css",
+    "main.js": "https://weixin3046.github.io/react_blog/static/js/main.f2a6d505.chunk.js",
+    "main.js.map": "https://weixin3046.github.io/react_blog/static/js/main.f2a6d505.chunk.js.map",
+    "runtime-main.js": "https://weixin3046.github.io/react_blog/static/js/runtime-main.56c47c2b.js",
+    "runtime-main.js.map": "https://weixin3046.github.io/react_blog/static/js/runtime-main.56c47c2b.js.map",
+    "static/js/2.51d031c8.chunk.js": "https://weixin3046.github.io/react_blog/static/js/2.51d031c8.chunk.js",
+    "static/js/2.51d031c8.chunk.js.map": "https://weixin3046.github.io/react_blog/static/js/2.51d031c8.chunk.js.map",
+    "index.html": "https://weixin3046.github.io/react_blog/index.html",
+    "precache-manifest.10b592fc02cafd2625b4a2f3af9f5cf5.js": "https://weixin3046.github.io/react_blog/precache-manifest.10b592fc02cafd2625b4a2f3af9f5cf5.js",
+    "service-worker.js": "https://weixin3046.github.io/react_blog/service-worker.js",
+    "static/css/main.5fc0e598.chunk.css.map": "https://weixin3046.github.io/react_blog/static/css/main.5fc0e598.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56c47c2b.js",
+    "static/js/2.51d031c8.chunk.js",
+    "static/css/main.5fc0e598.chunk.css",
+    "static/js/main.f2a6d505.chunk.js"
+  ]
+}
